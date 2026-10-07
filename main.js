@@ -431,7 +431,7 @@ for(const el of document.getElementById('buttons').getElementsByTagName('td')) {
 const update = evt => {
     let output = inputEl.value
 
-    for(const [ key, value ] of letter_map) {
+    for(const [ key, value ] of letterMap) {
         output = output.replaceAll(key, value)
     }
     for(const [ key, value ] of afterMap) {
