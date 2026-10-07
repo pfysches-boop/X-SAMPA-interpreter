@@ -1,80 +1,80 @@
 html {
-    background-color: #ddddff;
-    font-family: 'Times New Roman', Times, serif;
+  background-color: #ddddff;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 div {
-    margin: auto;
-    padding: 15px;
-    width: 95vw;
+  margin: auto;
+  padding: 15px;
+  width: 95vw;
 }
 
 td {
-    width: 2%;
-    height: 3%;
-    /* cursor: pointer; */
-    font-size: 120%;
-    /* border: 3px solid black; */
-    /* border-radius: 6px; */
-    text-align: center;
-    line-height: 135%;
+  width: 2%;
+  height: 3%;
+  /* cursor: pointer; */
+  font-size: 120%;
+  /* border: 3px solid black; */
+  /* border-radius: 6px; */
+  text-align: center;
+  line-height: 135%;
 }
 
 .texty {
-    width: 50%;
-    height: 4vh;  
+  width: 50%;
+  height: 4vh;  
 }
 
 .non-ipa {
-    background-color: #ffaadd;
+  background-color: #ffaadd;
 }
 .implicit {
-    background-color: #aaffdd;
+  background-color: #aaffdd;
 }
 .obselete {
-    background-color: #ddaaff;
+  background-color: #ddaaff;
 }
 
 
 input {
-    border-radius: 2px;
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    margin: 0;
-    line-height: 4vh;
-    vertical-align: middle;
-    text-align: center;
-    font: 3vh 'times new roman';
-    color: black;
+  border-radius: 2px;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  line-height: 4vh;
+  vertical-align: middle;
+  text-align: center;
+  font: 3vh 'times new roman';
+  color: black;
 }
 
 #xsampa-input {
-    border: 3px solid purple;
+  border: 3px solid purple;
 }
 #ipa-output {
-    border: 3px solid darkblue;
+  border: 3px solid darkblue;
 }
 
 label {
-    font: 3vh 'comic sans ms';
+  font: 3vh 'comic sans ms';
 }
 
 button, a {
-    font: 2vh 'comic sans ms';
+  font: 2vh 'comic sans ms';
 }
 
 
 .fadeinout {
-    animation: fadeinout 1s linear forwards;
-    -webkit-animation: fadeinout 1s linear forwards;
+  animation: fadeinout 1s linear forwards;
+  -webkit-animation: fadeinout 1s linear forwards;
 }
 
 @keyframes fadeinout {
-    15% { opacity: 1; }
-    0%, 100% { opacity: 0; }
+  15% { opacity: 1; }
+  0%, 100% { opacity: 0; }
 }
 @-webkit-keyframes fadeinout {
-    15% { opacity: 1; }
-    0%, 100% { opacity: 0; }
+  15% { opacity: 1; }
+  0%, 100% { opacity: 0; }
 }
